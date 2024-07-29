@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+.container{
+    position: relative;
+    background-color: white;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 24px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow:0 5px 10px rgba(0,0,0,);
+
+}
+
+.logo img{
+    width: 40px;
+
+}
+header .chip{
+    width: 70px;
+    height: 20px;
+
+
+}

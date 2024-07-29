@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #ffeaa7;
+    color: #2d3436;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #d63031;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section#home {
+    text-align: center;
+    padding: 2rem 0;
+    background: #fab1a0;
+}
+
+section#home h2 {
+    margin-bottom: 1rem;
+}
+
+section#home .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #d63031;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section#services, section#projects, section#feedback {
+    background: #fff;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+section#services ul, section#projects ul {
+    list-style: none;
+    text-align: center;
+}
+
+section#services ul li, section#projects ul li {
+    margin-bottom: 1rem;
+}
+
+#feedback-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#feedback-form label {
+    margin-bottom: 0.5rem;
+}
+
+#feedback-form input, #feedback-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#feedback-form .btn {
+    width: 100px;
+    align-self: center;
+    background: #d63031;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background: #2d3436;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,67 @@
+/* digital_marketing.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(209, 107, 134), rgb(52, 62, 81));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.project {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+img.logo {
+    height: 25%; /* One fourth of the original height */
+    width: 50%; /* Half of the original width */
+    display: block;
+    margin: 10px auto; /* Center the image */
+}
+
+img.poster {
+    height: 50%; /* Half of the original height */
+    width: 50%; /* Half of the original width */
+    display: block;
+    margin: 10px auto; /* Center the image */
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: 90%;
+    }
+
+    img.logo, img.poster {
+        width: 75%; /* Adjust width for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    img.logo, img.poster {
+        width: 90%; /* Adjust width for small screens */
+    }
+}
